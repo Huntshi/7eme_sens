@@ -15,13 +15,16 @@ header{
 
 main{
     padding-top: 5vw;
-    padding-bottom: 15vw;
+    padding-bottom: 5vw;
 }
 
 main form div{
     height: 5vw;
     width: 80%;
     margin: auto;
+}
+main label{
+    color: #5B3F69;
 }
 
 footer a:link {
@@ -38,16 +41,15 @@ footer a:visited {
 
 
 footer{
-    margin-top: 5em;
     padding-top: 1px;
     background-color: #5B3F69;
     color: #F6E4FF;
     margin-bottom: 0;
     display: block;
-    position: fixed;
+    position: relative;
     bottom: 0;
     box-sizing: border-box;
-    border-top: 1px solid #5B3F69;
+    border-top: 1px solid #F6E4FF   ;
 }
 
 main h1{
@@ -79,7 +81,7 @@ a:hover{
     width: 100%;
     color: #957BB0; 
     border: 1px solid #957BB0;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 2em;
 }
 
@@ -108,5 +110,18 @@ a:hover{
 }
 
 .compteciv{
+    margin: auto;
+}
+
+.testfooter{
+    font-size: 0.8em;
+}
+.testfoot{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
+
+.rib{
     margin: auto;
 }
