@@ -29,10 +29,6 @@
                 <input type="text" id="Nom" name="Nom"    class="custom-input col-5 text-center" placeholder="Nom" required />
             </div>
 
-
-
-
-
             <div class="row text-center">
                     <div class="column col-5">
                         <label >Civilité</label>

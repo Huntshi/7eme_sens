@@ -96,7 +96,8 @@ a:hover{
     color: #5B3F69;
 }
 
-#Login::placeholder, #motdepasse::placeholder {
+#Login::placeholder, #motdepasse::placeholder ,#Prenom::placeholder, #Nom::placeholder, #Pseudo::placeholder, #mail::placeholder, #langue::placeholder, #email::placeholder,
+#pseudo::placeholder, #ville::placeholder,#confirmationMDP::placeholder, #codePostal::placeholder,#numRue::placeholder,#nomRue::placeholder,#telephone::placeholder {
     color: #957BB0;
     opacity: 50%;
 }
