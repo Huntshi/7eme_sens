@@ -4,27 +4,33 @@
 <head>
     <meta charset="utf-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style_proprio-client.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <img src="/Ressources/Images/logo.svg">
-        <h2>Loc'Breizh</h2>
+<header class="row col-12">
+            <div class="row col-3">
+                <img src="svg//logo.svg">
+                <h2 style="margin-top: auto; margin-bottom: auto; margin-left: 10px;">Loc'Breizh</h2>
+            </div>
 
-        <img src="/Ressources/Images/filtre.svg">
+            <div class="row col-3">
+                <img class="col-2" src="svg//filtre.svg">
+                <input class="col-7" id="searchbar" type="text" name="search" style="height: 50px; margin-top: auto; margin-bottom: auto;">
+                <img class="col-2" src="svg//loupe.svg">
+            </div>
+                <div class="row col-3 offset-md-1">
+                    <img src="svg//booklet-fill 1.svg">
+                    <a href="logement.php" style="margin: auto;margin-left: 10px;"><h4>Accèder à mes réservations</h4></a>
+                </div>
+                
 
-        <input id="searchbar" type="text" name="search">
-        <img src="/Ressources/Images/loupe.svg">
-
-        <img src="/Ressources/Images/booklet-fill 1.svg">
-        <h4>Accèder à mes logements</h4>
-
-
-        <img src="/Ressources/Images/message.svg">
-        <img src="/Ressources/Images/compte.svg">
-        <hr>
+            <div class="col-2 row">
+                <a href="acceuil_proprio.html" class="offset-md-6 row"><img src="svg/message.svg"></a>
+                <a href="acceuil_proprio.html" class="offset-md-2 row"><img src="svg/compte.svg"></a> 
+            </div>
     </header>
     <main>
         <?php

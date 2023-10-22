@@ -4,24 +4,28 @@
 <head>
     <meta charset="utf-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style_proprio-client.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <img src="/Ressources/Images/logo.svg">
-        <h2>Loc'Breizh</h2>
+    <header class="row col-12">
+        <div class="row col-3">
+            <img src="svg//logo.svg">
+            <h2 style="margin-top: auto; margin-bottom: auto; margin-left: 10px;">Loc'Breizh</h2>
+        </div>
 
-        <img src="/Ressources/Images/filtre.svg">
+        <div class="row col-3">
+            <img class="col-2" src="svg//filtre.svg">
+            <input class="col-7" id="searchbar" type="text" name="search" style="height: 50px; margin-top: auto; margin-bottom: auto;">
+            <img class="col-2" src="svg//loupe.svg">
+        </div>
 
-        <input id="searchbar" type="text" name="search">
-        <img src="/Ressources/Images/loupe.svg">
-
-        <h4>S'sinscrire</h4>
-        <h4>Se connecter</h4>
-
-        <hr>
+        <div class="row col-5 offset-md-1">
+            <a class="col-4 offset-md-1 row btn-compte" s><h5 style="margin-top: auto; margin-bottom: auto;">S'inscrire</h5></a>
+            <a class="col-4 offset-md-1 row btn-compte"><h5 style="margin-top: auto; margin-bottom: auto;;">Se connecter</h5></a>
+        </div>
     </header>
     <main>
         <?php
