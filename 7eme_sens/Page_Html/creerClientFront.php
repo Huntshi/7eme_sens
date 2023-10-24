@@ -16,12 +16,12 @@
             }
         ?>
     <header>
-        <div class="col-12 row text-center"> 
+        <div class="col-12 row text-center headconn"> 
             <a class="offset-md-2 titre" href="creerCompte.html"><img src="svg/flecheRetour.svg"/></a>
             <h1  class="col-8 titre">Créer mon compte client  !</h1>
         </div>
     </header>
-    <main class="container col-12" style="">
+    <main class="container col-12">
         <form  class="offset-md-1" action="creerProprietaireBack.php" method="post" enctype="multipart/form-data">
 
             <div class="row mt-5 offset-md-1">
