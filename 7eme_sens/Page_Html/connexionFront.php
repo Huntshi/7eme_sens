@@ -16,7 +16,7 @@
             }
         ?>
     <header>
-        <div class="col-12 row text-center"> 
+        <div class="col-12 row text-center headconn"> 
             <a class="offset-md-2 titre" href="connexionFront.php"><img src="svg/flecheRetour.svg"></a>
 
             <h1 class="col-8 text-center titre">Bienvenue sur Loc’Breizh !</h1>
