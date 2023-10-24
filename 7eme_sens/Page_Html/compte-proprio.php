@@ -79,7 +79,7 @@
                     </div>
                     <div class="row">
                         <label for="datenaisance">DATE DE NAISSANCE</label>
-                        <p>Alain.provist@ex-terieur.com</p>
+                        <p>25/01/1990</p>
                         <button type="submit" class="btn-accueil">modifier</button>
                     </div>
                     <div class="row">
